@@ -1,0 +1,1 @@
+C:\Users\pdeco\source\repos\SelectionChangedRepro\SelectionChangedRepro\SelectionChangedRepro.UWP\SelectionChangedRepro.UWP.csproj;x86

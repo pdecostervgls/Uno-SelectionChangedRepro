@@ -22,42 +22,16 @@ namespace SelectionChangedRepro
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page, INotifyPropertyChanged
+    public sealed partial class MainPage : Page
     {
-        private ListViewItem _ChosenItem;
-        public ListViewItem ChosenItem
-        {
-            get
-            {
-                return _ChosenItem;
-            }
-            set
-            {
-                if (_ChosenItem != value)
-                {
-                    _ChosenItem = value;
-                    NotifyPropertyChanged();
-                }
-            }
-        }
-
         public MainPage()
         {
             this.InitializeComponent();
-            this.DataContext = this;
         }
-
-        private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-
-        public event PropertyChangedEventHandler PropertyChanged;
 
         private void ListMotionMountDevices_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine("SelectedItem has content: " + ChosenItem.Content);
+            //System.Diagnostics.Debug.WriteLine("SelectedItem has content: " + ViewModel.ChosenItem.Content);
         }
     }
 }

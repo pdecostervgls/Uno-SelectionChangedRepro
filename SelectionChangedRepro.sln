@@ -11,12 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionChangedRepro.iOS",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionChangedRepro.UWP", "SelectionChangedRepro\SelectionChangedRepro.UWP\SelectionChangedRepro.UWP.csproj", "{A70E4929-D77C-4AA6-9857-2BB93100C64E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionChangedRepro.Wasm", "SelectionChangedRepro\SelectionChangedRepro.Wasm\SelectionChangedRepro.Wasm.csproj", "{2AAD828E-DFD9-4F2A-83C3-C58B35687A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionChangedRepro.Wasm", "SelectionChangedRepro\SelectionChangedRepro.Wasm\SelectionChangedRepro.Wasm.csproj", "{2AAD828E-DFD9-4F2A-83C3-C58B35687A1B}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SelectionChangedRepro\SelectionChangedRepro.Shared\SelectionChangedRepro.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		SelectionChangedRepro\SelectionChangedRepro.Shared\SelectionChangedRepro.Shared.projitems*{7a81007e-173e-4f35-9174-22fc78fd077c}*SharedItemsImports = 4
 		SelectionChangedRepro\SelectionChangedRepro.Shared\SelectionChangedRepro.Shared.projitems*{a70e4929-d77c-4aa6-9857-2bb93100c64e}*SharedItemsImports = 4
+		SelectionChangedRepro\SelectionChangedRepro.Shared\SelectionChangedRepro.Shared.projitems*{ba391303-ed70-4add-aa11-224df9c2a2c6}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
